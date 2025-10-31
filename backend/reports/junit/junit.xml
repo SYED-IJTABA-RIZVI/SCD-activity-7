@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="0.826">
+  <testsuite name="API integration tests" errors="0" failures="0" skipped="0" timestamp="2025-10-31T07:23:41" time="0.664" tests="3">
+    <testcase classname="API integration tests GET /api/health returns status ok" name="API integration tests GET /api/health returns status ok" time="0.017">
+    </testcase>
+    <testcase classname="API integration tests POST /api/items success" name="API integration tests POST /api/items success" time="0.019">
+    </testcase>
+    <testcase classname="API integration tests POST /api/items failure (missing name)" name="API integration tests POST /api/items failure (missing name)" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="add()" errors="0" failures="0" skipped="0" timestamp="2025-10-31T07:23:42" time="0.065" tests="2">
+    <testcase classname="add() adds two positive numbers" name="add() adds two positive numbers" time="0">
+    </testcase>
+    <testcase classname="add() throws when arguments are not numbers" name="add() throws when arguments are not numbers" time="0.006">
+    </testcase>
+  </testsuite>
+</testsuites>
